@@ -1,3 +1,5 @@
+//Fetch API
+
 async function obtenerEmpleados() {
 
     const archivo = 'empleados.json';
