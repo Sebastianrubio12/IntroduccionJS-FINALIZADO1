@@ -21,20 +21,22 @@ const numeros = [10,20,30,40,50];
 //     console.log(numero);
 // })
 
-numeros.push(60,70,80); // Al final del arreglo
-numeros.unshift(-10,-20,-30); // al inicio del arreglo
 
+numeros.push(60,70,80);//agrega al final del arreglo
+numeros.unshift(-20,-10,-30);//agrega datos al inicio del arreglo
 console.table(numeros);
 
-const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo'];
 
-// meses.pop(); // elimina el último elemento
-// meses.shift(); // elimina el primer elemento
+const meses =  ["enero","Febrero","Marzo","Abril", "Mayo"];
 
-// meses.splice(2, 1);
+// meses.pop();//elimina el ultimo elemento del arreglo
+// meses.shift();//elimna el primer elemento del arreglo
+
+// meses.splice(2,1);//recorre el arreglo y elimna el valor determinado
+
 // console.table(meses);
 
-// Rest Operator o Spread Operator
+//Rest o Spread operator
 
 const nuevoArreglo = ['Junio', ...meses];
 console.log(nuevoArreglo);
