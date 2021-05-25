@@ -18,7 +18,7 @@ const numeros = [10,20,30,40,50];
 // console.log(meses.length);
 
 // numeros.forEach( function(numero) {
-//     console.log(numero);
+//     console.log(numeros);
 // })
 
 
